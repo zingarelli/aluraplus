@@ -147,6 +147,10 @@ body {
     margin: 2em 0;
 }
 
+.footer__list li {
+    margin: 0 1em;
+}
+
 .list__link {
     color: var(--main-white);
     text-decoration: none;
@@ -167,4 +171,69 @@ body {
     margin-bottom: 2em;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* Styles for medium-size screens */
+@media screen and (max-width: 940px) {
+
+    .secondary,
+    .devices,
+    .footer {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+/* Styles for mobile */
+@media screen and (max-width: 425px) {
+    .container {
+        display: block;
+    }
+
+    .container__box {
+        position: relative;
+        top: 25%;
+    }
+
+    .container__title {
+        font-size: 24px;
+    }
+
+    .container__image {
+        width: 75%;
+    }
+
+    .description__title,
+    .devices__title {
+        font-size: 36px;
+    }
+
+    .devices__list {
+        margin: 1em 0 10em;
+    }
+
+    .devices__list li {
+        margin-bottom: 1em;
+    }
+
+    .devices__list img {
+        width: 40%;
+    }
+
+    .list__item {
+        font-size: 28px;
+    }
+
+    .container__box,
+    .secondary,
+    .devices,
+    .footer {
+        margin: 0 2em;
+    }
+
+    .footer__list {
+        height: 200px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 }
