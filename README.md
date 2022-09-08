@@ -1,9 +1,11 @@
+![Preview of Alura Plus Website](https://user-images.githubusercontent.com/19349339/189158902-3dd85fd0-dedc-4358-bdc9-124acbd8a96f.png)
+
 # Alura+ (Alura Plus)
 
 Development of the landing page of Alura+ website (which is in Portuguese), based on the design created and [provided in a Figma file](https://www.figma.com/file/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?node-id=0%3A1). 
 
 ## View online!
-This project is hosted on _______ and can be checked here: _____
+This project is hosted on GitHub Pages and can be checked here: https://zingarelli.github.io/aluraplus/
 
 # Credits
 
