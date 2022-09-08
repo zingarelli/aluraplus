@@ -45,3 +45,6 @@ body {
 }
 
 ```
+
+## Additional feature: responsiveness
+As an additional feature, I added specific styles for medium (up to 940px) and small (up to 425px) screens, using media queries.
