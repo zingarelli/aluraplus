@@ -1,0 +1,170 @@
+:root {
+    --main-white: #FFFFFF;
+    --secondary-grey: #C0C0C0;
+    --bg-dark: #00030C;
+    --button-blue: #167BF7;
+    --button-blue-effect: #045AC4;
+    --main-font: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--main-white);
+    background-color: var(--bg-dark);
+    font-family: var(--main-font), sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/* every section component in the landing page will occupy the entire screen */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    align-items: center;
+    text-align: center;
+}
+
+/* MAIN SECTION */
+.main {
+    background: url('img/background.png') no-repeat;
+    background-size: contain;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__image {
+    margin: 1em 0 2em;
+}
+
+.container__button {
+    background-color: var(--button-blue);
+    color: var(--main-white);
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.container__button:hover {
+    background-color: var(--button-blue-effect);
+    box-shadow: 0 0 10px var(--main-white);
+}
+
+.secondary-button {
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+}
+
+.secondary-button:hover {
+    background-color: var(--secondary-grey);
+    color: var(--bg-dark);
+}
+
+.container__disclaimer {
+    font-size: 12px;
+    color: var(--secondary-grey);
+}
+
+/* SECONDARY SECTION */
+.secondary {
+    margin: 0 10em;
+}
+
+.secondary__image {
+    width: 80%;
+    justify-self: center;
+}
+
+.secondary__button {
+    display: inline-block;
+}
+
+.container__description {
+    text-align: left;
+}
+
+.description__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+.description__text {
+    color: var(--secondary-grey);
+    margin: 0.5em 0;
+}
+
+/* DEVICES SECTION */
+.devices {
+    text-align: center;
+    margin: 0 10em;
+}
+
+.devices__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+.devices__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4em 0;
+    list-style: none;
+}
+
+.list__item {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    margin: 15em 10em 5em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 2em 0;
+}
+
+.list__link {
+    color: var(--main-white);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.list__link:hover {
+    color: var(--button-blue);
+}
+
+.list__link:active {
+    text-decoration: underline;
+}
+
+.footer__text {
+    color: var(--secondary-grey);
+    margin-bottom: 2em;
+    font-size: 14px;
+    font-weight: 400;
+}
