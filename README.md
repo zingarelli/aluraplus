@@ -1,19 +1,26 @@
-![Preview of Alura Plus Website](https://user-images.githubusercontent.com/19349339/189158902-3dd85fd0-dedc-4358-bdc9-124acbd8a96f.png)
-
 # Alura+ (Alura Plus)
 
 Development of the landing page of Alura+ website (which is in Portuguese), based on the design created and [provided in a Figma file](https://www.figma.com/file/tFDVyNuKhrT2G03k2dCstW/Alura-Plus---Layout?node-id=0%3A1). 
 
-## View online!
-This project is hosted on GitHub Pages and can be checked here: https://zingarelli.github.io/aluraplus/
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Alura Plus**
+| :label: Tecnologias | HTML, CSS
+| :rocket: URL         | https://zingarelli.github.io/aluraplus/
+| :fire: Desafio     | 
 
-# Credits
+
+![Preview of Alura Plus Website](https://user-images.githubusercontent.com/19349339/189158902-3dd85fd0-dedc-4358-bdc9-124acbd8a96f.png#vitrinedev)
+
+## Detalhes do projeto
+
+## Credits
 
 This project was developed in a course from [Alura](https://www.alura.com.br) called "HTML e CSS: praticando HTML/CSS" (HTML and CSS: Practicing with HTML/CSS), as a way of consolidating all the knowledge acquired in the HTML/CSS Specialization. 
 
 Instructor: [Mônica Mazzochi Hillman](https://github.com/MonicaHillman)
 
-# What we learned
+## What we learned
 From the Figma file, we identified similar sections and elements, which helped us structure HTML and CSS files for a better reuse of classes, styles and patterns. With that, it was also easier to identify where to apply Flexbox and Grid.
 
 Classes in the HTML file were named using [BEM methodology](http://getbem.com/introduction/) (Block-Element-Modifier), which is a nice way of keeping classes easy to find, well organized and avoiding conflicts between classes with similar names. For example:
@@ -46,5 +53,5 @@ body {
 
 ```
 
-## Additional feature: responsiveness
+### Additional feature: responsiveness
 As an additional feature, I added specific styles for medium (up to 940px) and small (up to 425px) screens, using media queries.
