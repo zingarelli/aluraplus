@@ -7,7 +7,7 @@ Development of the landing page of Alura+ website (which is in Portuguese), base
 | :sparkles: Nome        | **Alura Plus**
 | :label: Tecnologias | HTML, CSS
 | :rocket: URL         | https://zingarelli.github.io/aluraplus/
-| :fire: Desafio     | 
+| :fire: Course     | https://www.alura.com.br/curso-online-html-css-praticando-html-css
 
 
 ![](https://user-images.githubusercontent.com/19349339/189158902-3dd85fd0-dedc-4358-bdc9-124acbd8a96f.png#vitrinedev)
